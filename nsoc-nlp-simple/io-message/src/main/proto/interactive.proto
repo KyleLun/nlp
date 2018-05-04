@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "cn.nsoc.nlp.message";
+option java_outer_classname = "InteractiveProto";
+option objc_class_prefix = "";
+
+package intteractive;
+
+service Greeter {
+    rpc extract(ExtractRequest) returns (ExtractReply) {}
+    rpc feedback(FeedBackRequest) returns (FeedBackReply) {}
+}
+
+message ExtractRequest {
+    string text = 1;
+}
+
+message ExtractReply {
+    map<string, double> score = 1;
+}
+
+message FeedBackRequest {
+    map<string, double> words = 1;
+}
+
+message FeedBackReply {
+    map<string, double> score = 1;
+}

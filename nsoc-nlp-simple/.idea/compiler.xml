@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="io-message" />
+        <module name="nsoc-nlp-client" />
+        <module name="nsoc-nlp-core" />
+        <module name="nsoc-nlp-server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="io-message" target="1.8" />
+      <module name="nsoc-nlp-client" target="1.8" />
+      <module name="nsoc-nlp-core" target="1.8" />
+      <module name="nsoc-nlp-server" target="1.8" />
+      <module name="nsoc-nlp-simple" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

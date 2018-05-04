@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/io-message/io-message.iml" filepath="$PROJECT_DIR$/io-message/io-message.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nsoc-nlp-client/nsoc-nlp-client.iml" filepath="$PROJECT_DIR$/nsoc-nlp-client/nsoc-nlp-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nsoc-nlp-core/nsoc-nlp-core.iml" filepath="$PROJECT_DIR$/nsoc-nlp-core/nsoc-nlp-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nsoc-nlp-server/nsoc-nlp-server.iml" filepath="$PROJECT_DIR$/nsoc-nlp-server/nsoc-nlp-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nsoc-nlp-simple.iml" filepath="$PROJECT_DIR$/nsoc-nlp-simple.iml" />
+    </modules>
+  </component>
+</project>
